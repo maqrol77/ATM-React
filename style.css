@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.deposit-button {
+    color: white;
+}
+
+.cashback-button {
+    color: white;
+}
+
+.transaction-button {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.deposit::before {
+    content: "Deposit ";
+}
+
+.withdrawal::before {
+    content: "Withdraw ";
+}
+
+.transactions-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transactions-list li {
+    margin-bottom: 5px;
+}
+
+.deposit {
+    color: green;
+}
+
+.withdrawal {
+    color: red;
+}
+
+.transactions-list li .balance {
+    color: black;
+}
